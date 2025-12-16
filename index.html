@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Nómina - Account Sales</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>Sistema Nómina</h1>
+            </div>
+            
+            <nav class="menu">
+                <a href="#" class="menu-item active" data-section="resumen">
+                    <p>Resumen de empleados</p>
+                </a>
+                
+                <a href="#" class="menu-item" data-section="editar">
+                    <p>Editar empleados</p>
+                </a>
+                
+                <a href="#" class="menu-item" data-section="comprobantes">
+                    <p>Generar Comprobantes</p>
+                </a>    
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <!--seccion 1 resumen de empleados-->
+            <div class="section active" id="resumen">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2>Resumen de Empleados</h2>
+                    </div>
+                    <table>
+                        <caption>Empleados</caption>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Sueldo</th>
+                                <th>Auxilio</th>
+                                <th>Horas Extras</th>
+                                <th>Devengado</th>
+                                <th>Salud</th>
+                                <th>Pensión</th>
+                                <th>Deducciones</th>
+                                <th>Neto</th>                                
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <!-- Sección 2: Gestionar Empleados -->
+            <div class="section" id="editar">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2>Gestionar Empleados</h2>
+                    </div>
+                    <p class="placeholder-text">Aquí irá el contenido para agregar, modificar o eliminar empleados</p>
+                </div>
+            </div>
+
+            <!-- Sección 3: Generar Comprobantes -->
+            <div class="section" id="comprobantes">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2>Generar Comprobantes</h2>
+                    </div>
+                    <p class="placeholder-text">Aquí irá el contenido para generar comprobantes descargables</p>
+                </div>
+            </div>            
+
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
