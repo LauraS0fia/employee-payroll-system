@@ -27,10 +27,11 @@ This project is developed as a collaborative portfolio project, following good s
 - JavaScript
 
 ### Backend
-- Node.js
+- Python
+- FastAPI
 
 ### Database
-- SQL
+- MongoDB
 
 ---
 
