@@ -1,4 +1,23 @@
 body {
     background: linear-gradient(180deg ,rgb(24, 170, 228),rgb(77, 110, 255));
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
 }
