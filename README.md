@@ -1,25 +1,25 @@
 # Payroll Management System
 
-## 📌 Description
-Payroll Management System is a software project designed to manage and generate employee payroll by the employer or the responsible department.  
-The system allows the administration of employees, salary calculation, application of deductions, and payroll generation in an organized and efficient way.
+## 📌 Descripción
+Payroll Management System es un proyecto de software diseñado para gestionar y generar la nómina de empleados por parte del empleador o del departamento responsable.  
+El sistema permite la administración de empleados, el cálculo de salarios, la aplicación de deducciones y la generación de nóminas de manera organizada y eficiente.
 
-This project is developed as a collaborative portfolio project, following good software development practices.
-
----
-
-## 🚀 Features
-- Employee registration and management
-- Payroll creation and management
-- Salary calculation
-- Overtime calculation
-- Payroll deductions (health, pension, etc.)
-- Net salary calculation
-- Payroll summary generation
+Este proyecto se desarrolla como un proyecto colaborativo de portafolio, siguiendo buenas prácticas de desarrollo de software.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Funcionalidades
+- Registro y gestión de empleados
+- Creación y gestión de nóminas
+- Cálculo de salario
+- Cálculo de horas extra
+- Deducciones de nómina (salud, pensión, etc.)
+- Cálculo del salario neto
+- Generación de resumen de nómina
+
+---
+
+## 🛠️ Tecnologías
 ### Frontend
 - React
 - HTML
@@ -30,9 +30,9 @@ This project is developed as a collaborative portfolio project, following good s
 - Python
 - FastAPI
 
-### Database
+### Base de Datos
 - MongoDB
 
 ---
 
-## 📂 Project Structure
+## 📂 Estructura del Proyecto
